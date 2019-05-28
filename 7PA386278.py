@@ -7,7 +7,7 @@ def abstand(s, t, dateiname='dat.py'):
     for l in dat:
         a = list(l)
         a.pop()
-        L.append(a)                                #Matrix                                           
+        L.append(a)                                #Creates a matrix, of the labyrinth from data file                                            
                                             
     if L[s[0]][s[1]] == 'P':                        
         Q.append((s[0], s[1]))
@@ -19,7 +19,7 @@ def abstand(s, t, dateiname='dat.py'):
     i, j = s
     x, y = t
             
-    while len(Q):                                   #waehrend wir den endpunkt nicht erreicht haben
+    while len(Q):                                   #while we dont reach the end
         i,j = Q.popleft()                           
         if (i, j) == t:
             for q in L:
