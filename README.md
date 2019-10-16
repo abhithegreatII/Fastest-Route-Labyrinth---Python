@@ -2,7 +2,7 @@
 A maze consists of Passables and Unpassables... Can you find the shortest path out of the Labyrinth?
 
 
-## How to Run:
+## How to Run
 
 Input of the function are the column and row of the start and likewise for your chosen endpoint of the labyrinth.
 For example, abstand((0,0),(2,14)):
